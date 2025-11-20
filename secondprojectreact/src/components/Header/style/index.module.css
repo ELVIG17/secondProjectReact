@@ -1,0 +1,33 @@
+header {
+    display:flex;
+    justify-content: space-between;
+    padding:10px 10px 10px 25px ;
+    width: 1405px;
+    background: white;
+    border-radius: 15px;
+    align-items: 15px;
+    margin-top: 10px;
+}
+
+.group3476 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+img {
+    width: 164px;
+    height: 20px;
+}
+.group3476 p {
+    font-family: 700;
+    font-style: Bold;
+    font-size: 18px;
+}
+.group3476 buttom {
+    background-color: #009bff;
+    color: white;
+
+    padding: 13px 40px;
+    border: none;
+    border-radius: 5px;
+}
