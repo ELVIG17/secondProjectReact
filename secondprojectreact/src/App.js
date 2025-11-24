@@ -6,10 +6,15 @@ import { Elementary } from './components/Elementary';
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <elementary/>
+      <div className='firstMember'>
+        <Header/>
+        <Elementary/>
+
+      </div>
     </div>
   );
 }
 
 export default App;
+// {/* <Header/>
+//       <Elementary/> */}
