@@ -27,16 +27,18 @@
 // components/Elementary/index.jsx
 import styles from './style/index.module.css';
 import phone from '../../assets/images/phone.svg';
-import pogruzchik from '../../assets/images/pogruzchick.png'
+import pogruzchik from '../../assets/images/pogruzchik.png'
 
 export const Elementary = () => {
   return (
     <div className={styles.container}>
       <div className={styles.blockLeft}>
-        <h2>электромобильный <br/>
+        <div className= {styles.bigFontSize}>
+          <h2>электромобильный <br/>
         вилочный погрузчик <br />
-        <span className={styles.blue}>нового поколения SHANN</span></h2>
-        <p>Оставьте заявку и получите консультацию специалиста</p>
+        <span>нового поколения SHANN</span></h2>
+        </div>
+        <p className= {styles.oporty}>Оставьте заявку и получите консультацию специалиста</p>
 
         <div className={styles.twoButton}>
           <button className={styles.primaryBtn}>
@@ -49,7 +51,7 @@ export const Elementary = () => {
         </div>
       </div>
       <div className= {styles.blockRight}>
-        <img src= {pogruzchik} alt='#'></img>
+        <img className= {styles.pucturesMachine} src= {pogruzchik} alt='#'></img>
 
       </div>
     </div>

@@ -1,8 +1,8 @@
 .App {
   display:flex ;
-  flex-direction: column;
   justify-content: center;
-  background-color: #bfc9e0
+  background-color: #bfc9e0;
+  
 
 }
 .firstMember {

@@ -1,15 +1,24 @@
-/* components/Elementary/style/index.module.css */
+/* components/Elementary/style/index.module.css
 .container {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content:space-between;
   align-items: center;
   padding: 40px 20px;
+  position: relative;
+  overflow: hidden;
 }
 
 .blockLeft {
   max-width: 600px;
   text-align: left;
+  position: relative;
+  z-index: 2;
+  
+}
+
+.bigFontSize{
+  font-size: 68px;
 }
 
 .blue {
@@ -44,6 +53,74 @@
   border: 2px solid #007bff;
   color: #007bff;
   padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.pucturesMachine{
+  width: 1020px;
+  height: 600px;
+  background: transparent;
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+} */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1495px;
+  height: 600px;
+}
+.blockLeft{
+  display: flex;
+  flex-direction: column;
+  width: 804px;
+  height: 380px;
+  
+}
+.bigFontSize{
+  height: 195px;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.oporty {
+  font-size: 24px;
+  margin-top: 95px;
+}
+.bigFontSize span {
+  color: blue;
+}
+
+.twoButton {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.transParentBtn {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  gap: 0px;
+  background: transparent;
+  border: 2px solid #007bff;
+  color: #007bff;
+  padding: 0px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 16px;
+  width: 550px;
+}
+.primaryBtn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
   border-radius: 6px;
   font-weight: 500;
   cursor: pointer;

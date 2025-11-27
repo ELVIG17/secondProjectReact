@@ -1,11 +1,11 @@
-header {
+.container {
     display:flex;
     justify-content: space-between;
     padding:10px 10px 10px 25px ;
     width: 1405px;
     background: white;
     border-radius: 15px;
-    align-items: 15px;
+    align-items: center;
     margin-top: 10px;
 }
 
@@ -14,7 +14,7 @@ header {
     flex-direction: row;
     gap: 40px;
 }
-img {
+.container img {
     width: 164px;
     height: 20px;
 }
